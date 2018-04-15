@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<!-- here we need to add listener tag just after suite Tag -->
+<listeners>
+	<listener class-name="testNG.Test_I_Listeners"></listener>
+</listeners>
+<!-- This listener applies to the entire test suite i.e multiple classes/ test cases -->
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNG.SuiteLevelApp"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

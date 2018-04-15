@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59526" started-at="2018-03-20T15:53:39Z" finished-at="2018-03-20T15:54:38Z">
+    <groups>
+    </groups>
+    <test name="InvalidTestcases" duration-ms="60" started-at="2018-03-20T15:53:39Z" finished-at="2018-03-20T15:53:39Z">
+      <class name="crossBrowser.CrossBrowser">
+        <test-method status="FAIL" signature="verifyTitle(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowser@26653222]" name="verifyTitle" duration-ms="19" started-at="2018-03-20T15:53:39Z" finished-at="2018-03-20T15:53:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at crossBrowser.CrossBrowser.verifyTitle(CrossBrowser.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- crossBrowser.CrossBrowser -->
+    </test> <!-- InvalidTestcases -->
+    <test name="chrome1Testcases" duration-ms="52333" started-at="2018-03-20T15:53:39Z" finished-at="2018-03-20T15:54:31Z">
+      <class name="crossBrowser.CrossBrowser">
+        <test-method status="PASS" signature="verifyTitle(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowser@51081592]" name="verifyTitle" duration-ms="52299" started-at="2018-03-20T15:53:39Z" finished-at="2018-03-20T15:54:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- crossBrowser.CrossBrowser -->
+    </test> <!-- chrome1Testcases -->
+    <test name="chromeTestcases" duration-ms="52351" started-at="2018-03-20T15:53:39Z" finished-at="2018-03-20T15:54:31Z">
+      <class name="crossBrowser.CrossBrowser">
+        <test-method status="PASS" signature="verifyTitle(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowser@4501b7af]" name="verifyTitle" duration-ms="52317" started-at="2018-03-20T15:53:39Z" finished-at="2018-03-20T15:54:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- crossBrowser.CrossBrowser -->
+    </test> <!-- chromeTestcases -->
+    <test name="firefoxTestcases" duration-ms="59526" started-at="2018-03-20T15:53:39Z" finished-at="2018-03-20T15:54:38Z">
+      <class name="crossBrowser.CrossBrowser">
+        <test-method status="PASS" signature="verifyTitle(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowser@4c70fda8]" name="verifyTitle" duration-ms="59492" started-at="2018-03-20T15:53:39Z" finished-at="2018-03-20T15:54:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- crossBrowser.CrossBrowser -->
+    </test> <!-- firefoxTestcases -->
+  </suite> <!-- Suite -->
+</testng-results>
